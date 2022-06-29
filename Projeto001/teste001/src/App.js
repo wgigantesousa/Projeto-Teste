@@ -1,6 +1,8 @@
 import React from 'react';
 import {useForm} from 'react-hook-form';
 import './App.css';
+import transudo from '../src/img/transudo.jpg';
+
 
 function App () {
 
@@ -22,7 +24,7 @@ function App () {
 
    <form onSubmit={handleSubmit(onSubmit)}>
       
-     <img  src={url} alt='TRANSUDO'/>
+     <img  src={transudo} alt='TRANSUDO'/>
 
      <label>
         Nome:
