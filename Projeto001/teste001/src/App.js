@@ -19,7 +19,7 @@ function App () {
  
   return (
    <div className="App" >
-    <h1> Tornesse  TRANSUDO! </h1>
+    <h1> Torne-se  TRANSUDO! </h1>
 
 
    <form onSubmit={handleSubmit(onSubmit)}>
